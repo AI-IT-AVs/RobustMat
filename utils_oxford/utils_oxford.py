@@ -411,7 +411,6 @@ class LandmarksDataset_train(Dataset):
     def __getitem__(self, idx):
         iidx = idx
         x = []
-        y = []
         while 1:
             image_frame_time0, image_frame_time1 = int(self.valid_idx[iidx, 0]), int(self.valid_idx[iidx, 1])
             x = get_graph_traning_testing(image_frame_time0, image_frame_time1)
@@ -420,7 +419,7 @@ class LandmarksDataset_train(Dataset):
             else:
                 iidx = np.random.randint(len(self.valid_idx))
 
-        return x, y
+        return x
 		
 class LandmarksDataset_test(Dataset):
     """Face Landmarks dataset."""
@@ -436,7 +435,6 @@ class LandmarksDataset_test(Dataset):
     def __getitem__(self, idx):
         iidx = idx
         x = []
-        y = []
         while 1:
             image_frame_time0, image_frame_time1 = int(self.valid_idx[iidx, 0]), int(self.valid_idx[iidx, 1])
             x = get_graph_traning_testing(image_frame_time0, image_frame_time1)
@@ -445,4 +443,4 @@ class LandmarksDataset_test(Dataset):
             else:
                 iidx = np.random.randint(len(self.valid_idx))
 
-        return x, y
+        return x
