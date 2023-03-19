@@ -603,7 +603,6 @@ class LandmarksDataset_train(Dataset):
     def __getitem__(self, idx):
         iidx = idx
         x = []
-        y = []##not used here
         while 1:
             iidx_pair = [int(self.valid_idx[iidx, 0]), int(self.valid_idx[iidx, 1])]
             x = get_graph_per_frame(iidx_pair, savedpath=self.savedpath, shift=None)
@@ -611,7 +610,7 @@ class LandmarksDataset_train(Dataset):
                 break
             else:
                 iidx = np.random.randint(len(self.valid_idx))
-        return x, y
+        return x
 
 
 class LandmarksDataset_test(Dataset):
@@ -626,7 +625,6 @@ class LandmarksDataset_test(Dataset):
     def __getitem__(self, idx):
         iidx = idx
         x = []
-        y = []##not used here
         while 1:
             iidx_pair = [int(self.valid_idx[iidx, 0]), int(self.valid_idx[iidx, 1])]
             x = get_graph_per_frame(iidx_pair, savedpath=self.savedpath, shift=None)
@@ -634,4 +632,4 @@ class LandmarksDataset_test(Dataset):
                 break
             else:
                 iidx = np.random.randint(len(self.valid_idx))
-        return x, y                 
+        return x                 
