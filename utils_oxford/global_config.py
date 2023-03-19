@@ -20,7 +20,7 @@ win_seg_dir = ''
 models_dir = homefolder + 'preprocess/models'
 
 imagemodel = CameraModel(models_dir, image_dir)
-laser_dir = ""
+laser_dir = ''
 poses_file = 'ins_gt_update_0.csv'
 
 extrinsics_dir = homefolder + 'preprocess/extrinsics/'
