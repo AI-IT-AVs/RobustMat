@@ -1,6 +1,6 @@
 ## RobustMat
 
-[RobustMat: Neural Diffusion for Street Landmark Patch Matching under Challenging Environments](https://ieeexplore.ieee.org/document/10268340)
+[(IEEE TIP paper) RobustMat: Neural Diffusion for Street Landmark Patch Matching under Challenging Environments](https://ieeexplore.ieee.org/document/10268340)
 
 ---
 
