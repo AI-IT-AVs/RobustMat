@@ -23,6 +23,14 @@ You can also use the following:
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
 ```
 
+* Platform：
+
+```
+Ubuntu 20.04
+CUDA 11.6/11.8
+python 3.8
+```
+
 * Citation：
 
 ```
