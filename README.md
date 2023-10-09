@@ -4,6 +4,21 @@
 
 ---
 
+* Requirments
+
+PyTorch installation:
+
+```
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0
+```
+
+You can also use the following:
+
+```
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+```
+
+
 
 * RobustMat and Street Landmark Patch Datasets 
 Including:  
