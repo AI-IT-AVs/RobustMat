@@ -6,11 +6,12 @@ Including:
 
 Citation：
 
-```@article{she2023robustmat,
+```
+@article{she2023robustmat,
   title={RobustMat: Neural Diffusion for Street Landmark Patch Matching under Challenging Environments},
   author={She, Rui and Kang, Qiyu and Wang, Sijie and Y{\'a}ng, Yu{\'a}n-Ru{\`\i} and Zhao, Kai and Song, Yang and Tay, Wee Peng},
   journal={IEEE Transactions on Image Processing},
   year={2023},
   publisher={IEEE}
-}```
-
+}
+```
