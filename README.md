@@ -27,9 +27,14 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 
 ```
 Ubuntu 20.04
-CUDA 11.6/11.8
+CUDA 11.3
 python 3.8
 ```
+
+* Dataset:
+
+Our datasets are based on three open-source datasets, including [KITTI Dataset](https://www.cvlibs.net/datasets/kitti/), [Oxford Radar RobotCar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/), and [Boreas Dataset](https://www.boreas.utias.utoronto.ca/#/)
+
 
 * Citation：
 
